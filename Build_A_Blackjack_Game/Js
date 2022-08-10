@@ -1,1 +1,44 @@
+Meghashyaam Sagar, [10/8/2022 11:59 AM]
+/*let age = 21
 
+if (age<21) {
+  console.log("You cannot enter the club!")
+} else { 
+  console.log("Welcome!")
+}*/
+
+
+
+let firstCard = 11
+let secondCard = 10
+let sum = firstCard + secondCard
+let hasBlackjack = false
+let isAlive = true
+let message = ""
+if (sum < 21) {
+  message = "Do you want to draw a new card?"
+} else if (sum === 21) {
+  message = "Wohoo! You've got Blackjack!"
+  hasBlackjack = true
+} else {
+  message = "You're out of the game!"
+  isAlive = false
+}
+
+console.log(message)
+
+/*
+console.log("isAlive: " + isAlive)
+console.log("hasBlackjack: " + hasBlackjack)
+*/
+
+/*
+let age = 18
+
+if (age === 100) {
+  console.log("Here is your birthday card from the King!")
+} else if (age < 100) {
+  console.log("Not eligible")
+} else {
+  console.log("Not eligible, you have already gotten one")
+}*/
