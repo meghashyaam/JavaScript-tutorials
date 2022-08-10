@@ -1,1 +1,39 @@
+//---Exercise 1---
 
+//let firstName = "Meghashyaam"
+//let lastName = "Sagar"
+//let fullName = firstName + " " + lastName
+//console.log(fullName)
+
+//---Exercise 2---
+
+//let name = "Linda"
+//let greeting = "Hi there"
+
+//function greetLinda(){
+  //console.log(greeting + ", " + name + "!")
+//}
+
+//greetLinda()
+
+//---Exercise 3---
+
+let myPoints = 3
+
+function add3Points(){
+  myPoints += 3
+}
+
+function remove1Point() {
+  myPoints -= 1
+}
+
+//--> make myPoints equal to 10 by calling the two functions as many times as you want
+
+add3Points()
+remove1Point()
+add3Points()
+remove1Point()
+add3Points()
+
+console.log(myPoints)
