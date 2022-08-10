@@ -1,1 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Build_a_Blackjack_Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Build_a_Blackjack_Game</h1>
+  <div id="test"></div>
 
+  <script src="script.js"></script>
+</body>
+</html>
